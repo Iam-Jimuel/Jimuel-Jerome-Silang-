@@ -124,11 +124,11 @@
            // Initialize EmailJS
     (function() {
       emailjs.init({
-        publicKey: "agdRKg94rSH2OJhg3", // <-- Palitan mo ng iyong PUBLIC KEY
+        publicKey: "agdRKg94rSH2OJhg3", // 
       });
     })();
 
-    // Function para mag-send ng email
+    // Function to send an email
     document.addEventListener("DOMContentLoaded", function() {
       const form = document.getElementById("contactForm");
 
